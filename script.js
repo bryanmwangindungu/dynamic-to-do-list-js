@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         listItem.textContent = taskText;
 
         // Create a new Remove button
-        const removeButton = document.createElement('remove');
+        const removeButton = document.createElement('button');
         removeButton.textContent = 'Remove';
-        removeButton.className = 'remove-btn';
+        removeButton.classList.add('remove-btn');  // 👈 using classList.add here
 
         // Assign an onclick event to remove the li when clicked
         removeButton.onclick = function() {

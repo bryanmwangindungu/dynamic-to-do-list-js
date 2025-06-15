@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         listItem.textContent = taskText;
 
         // Create a new Remove button
-        const removeButton = document.createElement('button');
+        const removeButton = document.createElement('remove');
         removeButton.textContent = 'Remove';
         removeButton.className = 'remove-btn';
 
